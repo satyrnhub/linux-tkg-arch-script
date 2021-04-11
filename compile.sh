@@ -6,5 +6,6 @@ cp config.cfg linux-tkg/linux-tkg-config/generic-desktop-profile.cfg
 cd linux-tkg
 echo "Beginning compilation..."
 makepkg -si
+cd ..
 sleep 1; rm -rf linux-tkg
 echo "Install finished!"
